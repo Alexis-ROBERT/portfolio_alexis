@@ -3,7 +3,6 @@ import Footer from "./Footer.astro";
 import "../styles/base.scss";
 import Header from "@layouts/Header.astro";
 import {SEO} from "astro-seo";
-import {getImage} from "astro:assets";
 export type TwitterCardType = "summary" | "summary_large_image" | "app" | "player";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
@@ -89,11 +88,9 @@ export interface SEOProps {
 
 interface Props {
     seo: SEOProps;
-    hiddenFooter: boolean;
-    hiddenMenu: boolean;
 }
 
-const {seo, hiddenFooter = false, hiddenMenu = false}: Props = Astro.props;
+const {seo}: Props = Astro.props;
 
 // const currentPath = Astro.url.pathname.replace("/fr", "");
 // const domain = Astro.url.origin;
@@ -144,10 +141,5 @@ const seoDefault: SEOProps = {
     <slot/>
 </main>
 <Footer/>
-<script>
-    import AOS from 'aos'
-
-    AOS.init()
-</script>
 </body>
 </html>
