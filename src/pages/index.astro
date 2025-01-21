@@ -1,9 +1,18 @@
 ---
-import Layout from "@layouts/Layout.astro";
+import Layout from "../layout/Layout.astro";
+import ParralaxZone from "../components/parallaxZone/parralax.zone";
+import Section from "../components/section/section";
+import CardProject from "../components/cardProject/card.project";
+import type {loader} from "@monaco-editor/react";
+import DemoZone from "../components/demoZone/demo.zone";
+import DropZoneElement from "../components/dropZoneElement/drop.zone.element";
+import CardSkill from "../components/cardSkill/card.skill";
+import IMGDevelopment from "@assets/svg/development.svg"
+import Header from "../layout/Header.astro";
 ---
-<Layout seo={{
-    title: `Joël Vigreux - Développeur full stack - Spécialiste Astro, React & NestJS`,
-    description: "Expert en technologies modernes telles que Astro, NestJS et React ! Joël VIGREUX : Développeur full stack vous accompagne du back-end au frontend",
-}}>
-    body
+<Layout>
+    <h1 class="text-display-small lg:text-display-large md:text-secondary text-primary">
+        Alexis ROBERT - Développeur Web
+    </h1>
 </Layout>
+
