@@ -1,0 +1,31 @@
+.flat-button-base {
+        width: 30px;
+        height: 8px;
+        border-radius: 4px;
+        background: #0078bb;
+        transition: 0.2s ease-in-out;
+        border: 0;
+        cursor: pointer;
+
+        &:hover {
+                transition: 0.3s ease-in-out;
+                box-shadow: 0 0 4px 2px rgba(101, 255, 135, 0.75);
+        }
+}
+
+.pressed-switch-btn {
+        transition: 0.3s ease-in-out;
+        box-shadow: 0 4px 2px rgba(101, 255, 135, 0.25) !important;
+        background: rgba(101, 255, 135, 0.50) !important;
+}
+
+.actived {
+        transition: 0.2s ease-in-out;
+        width: 60px;
+        background: #65ff87;
+        box-shadow: 0 6px 4px rgba(101, 255, 135, 0.25);
+
+        &:hover {
+            background: rgba(101, 255, 135, 0.75);;
+        }
+}

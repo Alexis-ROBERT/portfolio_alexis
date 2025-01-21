@@ -1,0 +1,29 @@
+.move-button-base {
+        background: transparent;
+        border: 5px solid #0078bb;
+        cursor: pointer;
+        box-shadow: 0 0 6px 6px #65ff87;
+        transition: 0.2s;
+        display: flex;
+
+        &:hover {
+                transition: 0.3s ease-in-out;
+                box-shadow: 0 0 20px 6px #65ff87;
+        }
+
+        .arrow-move-button-vector-container {
+                margin: auto !important;
+
+                .arrow-move-button-vector {
+                        width: fit-content;
+                        height: fit-content;
+                        width: 30px;
+                        height: 30px;
+                }
+        }
+}
+
+.pressed {
+        transition: 0.2s ease-in-out;
+        box-shadow: 0 0 20px 4px #65ff86a2 !important;
+}

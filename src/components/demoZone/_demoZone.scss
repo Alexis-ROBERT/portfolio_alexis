@@ -1,0 +1,40 @@
+.demo-zone-base {
+    width: 600px;
+    height: 600px;
+    background: #4A4A4A;
+    border-radius: 10px;
+    padding: 10px;
+
+    .demo-zone-title {
+        margin: auto auto auto 5px;
+        color: #fff;
+        font-family: 'Inter';
+        font-size: 16px;
+        text-decoration: underline;
+    }
+
+    .demo-zone-paste-button {
+        margin: auto 5px auto auto;
+        width: 40px;
+        height: 40px;
+    }
+
+    .demo-zone-editor-container {
+        width: 100%;
+        height: 497px;
+    }
+
+    .demo-zone-title-container {
+        width: 100%;
+        padding: 5px 0;
+        display: flex;
+        justify-content: space-between;
+        background: #1A1A1A;
+        margin-bottom: 25px;
+        border-radius: 10px;
+    }
+}
+
+.demo-zone-editor {
+    background: #1A1A1A;
+}

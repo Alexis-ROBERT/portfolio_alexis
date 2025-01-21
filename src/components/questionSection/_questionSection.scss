@@ -1,0 +1,39 @@
+.question-section-base {
+        border-bottom: 1px solid #4A4A4A;
+
+        .question-section-btn-base {
+                width: 100%;
+                padding: 5px 0;
+                font-size: 30px;
+                border: 0;
+                cursor: pointer;
+                display: flex;
+                background: transparent;
+                transition: 0.2s;
+                color: #fff;
+
+                &:hover {
+                        transition: 0.3s;
+                        color: rgba(101, 255, 135, 0.75);
+                }
+        }
+
+        .response-base {
+                height: 0;
+                overflow: hidden;
+                opacity: 0;
+                color: #fff;
+                transition: 0.2s;
+                text-align: none;
+        }
+
+        .open-response {
+                transition: 0.3s;
+                height: 600px;
+                opacity: 1;
+        }
+
+        .open-question {
+                color: rgba(101, 255, 135, 1);
+        }
+}

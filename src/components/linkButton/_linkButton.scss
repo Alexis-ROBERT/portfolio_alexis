@@ -1,0 +1,25 @@
+.link-button-base {
+        border: 0;
+        border-radius: 5px;
+        background: #65ff87;
+        padding: 5px;
+        font-size: 10px;
+        color: #2f2f2f;
+        text-decoration: none;
+        font-family: 'Inter Bold';
+        transition: 0.2s;
+
+        &:hover {
+            transition: 0.3s;
+            background:rgba(101, 255, 135, 0.75);
+            box-shadow: 0 0 8px 4px rgba(101, 255, 135, 0.50);
+        }
+}       
+
+.pressed-link {
+        transition: 0.2s;
+        background:rgba(101, 255, 135, 0.50) !important;
+        box-shadow: 0 0 4px 2px rgba(101, 255, 135, 0.50) !important;
+        border: 1px solid #65ff87;
+        color: #ffffff !important;
+}

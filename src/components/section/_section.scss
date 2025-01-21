@@ -1,0 +1,41 @@
+.section-base {
+  text-align: center;
+
+  .section-title-container {
+    margin: auto auto 50px auto;
+  }
+
+  .title-main-section-base {
+    font-size: 35px;
+    font-family: 'Inter Extra Bold';
+    margin: auto auto 10px auto;
+    background: linear-gradient(90deg, #0078BB, #65FF87);
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 200% 100%;
+    animation: gradientAnimation 3s ease infinite;
+  }
+
+  .sub-title-section-base {
+    font-size: 20px;
+  }
+
+  .section-content-base {
+    width: max-content;
+    height: max-content;
+  }
+
+  .left {
+    margin: auto auto auto 0;
+  }
+
+  .center {
+    margin: auto;
+  }
+
+  .right {
+    margin: auto 0 auto auto;
+  }
+}

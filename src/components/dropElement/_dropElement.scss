@@ -1,0 +1,34 @@
+.drop-element-base {
+    padding: 0 5px;
+    width: max-content;
+    background: #4A4A4A;
+    border-radius: 10px;
+    display: flex;
+
+    .drop-element-link-base {
+            text-decoration: none;
+            color: #fff;
+            transition: 0.2s;
+            margin: auto 5px auto 5px;
+
+            &:hover {
+                    text-decoration: underline;
+                    transition: 0.3s;
+                    color: #65FF87;
+            }
+    }
+
+    .link-pressed {
+            transition: 0.2s;
+            text-decoration: underline;
+            color: rgba(101, 255, 135, 0.50) !important;
+    }
+
+    .drop-element-btn-close-base {
+            margin: auto 5px auto 5px;
+    }
+}
+
+.content-pressed {
+        outline: 1px solid #65FF87;
+}

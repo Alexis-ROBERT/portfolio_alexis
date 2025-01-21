@@ -1,0 +1,52 @@
+.time-button-base {
+        padding: 5px;
+        border-radius: 10px;
+        border: 1px solid rgba($color: #65ff87, $alpha: 0.5);
+        background: rgba($color: #4a4a4a, $alpha: 0.6);
+        display: flex;
+        font-family: 'Inter';
+        color: #ffffff;
+        font-size: 14px;
+        transition: 0.2s;
+        text-align: center;
+
+        span {
+                margin: auto 5px;
+        }
+
+        .time-button-separed-text {
+                width: 2px;
+                height: 14px;
+                background: #ffffff;
+                border-radius: 1px;
+                margin: auto 5px;
+        }
+
+        .time-button-image-base {
+                right: 0;
+                top: 0;
+                width: 45px;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+                margin: auto 5px;
+        }
+}
+
+.actived-button-time {
+        cursor: pointer;
+
+        &:hover {
+                background: rgba($color: #4a4a4a, $alpha: 0.7);
+                transition: 0.3s;
+                box-shadow: 0 0 8px 6px rgba($color: #65ff87, $alpha: 0.75);
+                border: 1px solid rgba($color: #65ff87, $alpha: 1);
+        }
+}
+
+.pressed-button-time {
+        transition: 0.2s;
+        background: rgba($color: #4a4a4a, $alpha: 0.50) !important;
+        box-shadow: 0 0 8px 6px rgba($color: #65ff87, $alpha: 0.50) !important;
+        border: 1px solid rgba($color: #65ff87, $alpha: 0.75) !important;
+}

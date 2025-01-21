@@ -1,0 +1,23 @@
+.button-section-base {
+        width: 30px;
+        height: 30px;
+        border: 15px;
+        background: #0078bb;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+                transition: 0.2s;
+                box-shadow: 0 0 6px 4px rgba(101, 255, 135, 0.75);
+        }
+}
+
+.actived-btn-section {
+        transition: 0.2s;
+        box-shadow: 0 0 8px 6px rgba(101, 255, 135, 1);
+}
+
+.pressed-btn-section {
+        transition: 0.2s;
+        box-shadow: 0 0 8px 6px rgba(101, 255, 135, 0.50) !important;
+}

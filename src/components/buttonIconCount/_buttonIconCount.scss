@@ -1,0 +1,39 @@
+.button-icon-count-base {
+        background: rgba($color: #4a4a4a, $alpha: 0.6);
+        border-radius: 10px;
+        border: 1px solid rgba($color: #65ff87, $alpha: 0.5);
+        font-family: 'Inter';
+        padding: 5px;
+        width: 100px;
+        border-radius: 10px;
+        transition: 0.2s;
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+
+        &:hover {
+                transition: 0.3s;
+                background: rgba($color: #4a4a4a, $alpha: 0.7);
+                border: 1px solid rgba($color: #65ff87, $alpha: 1);
+                box-shadow: 0 0 8px 6px rgba($color: #65ff87, $alpha: 0.75);
+        }
+
+        span {
+                &:first-child {
+                        margin: auto auto auto 10px;
+                        width: 25px;
+                        height: 25px;
+                }
+
+                &:last-child {
+                        margin: auto 10px auto auto;
+                }
+        }
+}
+
+.pressed-button-icon-count {
+        transition: 0.2s;
+        box-shadow: 0 0 8px 6px rgba($color: #65ff87, $alpha: 0.50) !important;
+        border: 1px solid rgba($color: #65ff87, $alpha: 0.75) !important;
+        background: rgba($color: #4a4a4a, $alpha: 0.50) !important;
+}
