@@ -1,0 +1,35 @@
+.user-chat-base {
+        padding: 10px 10px;
+        border-radius: 10px;
+        background: #4a4a4a;
+        display: flex;
+
+        .user-chat-message-link {
+                font-family: 'Inter';
+                font-size: 12px;
+                color: #65ff87;
+                transition: 0.2s;
+                margin: auto 5px auto 5px;
+
+                &:hover {
+                        transition: 0.3s;
+                        color: rgba(101, 255, 135, 0.75);
+                }
+        }
+
+        .user-chat-icon {
+                margin: auto 0 auto 10px;
+        }
+
+        .message-link-pressed {
+                transition: 0.2s;
+                color: rgba(101, 255, 135, 0.50) !important;
+        }
+
+        .user-chat-message-text {
+                color: #fff;
+                font-family: 'Inter';
+                font-size: 12px;
+                margin: auto auto auto 5px;
+        }
+}

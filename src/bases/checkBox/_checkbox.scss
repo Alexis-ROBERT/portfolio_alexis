@@ -1,0 +1,35 @@
+.checkbox-base {
+        width: 25px;
+        height: 25px;
+        border: 2px solid #0078bb;
+        border-radius: 4px;
+        background: #4a4a4a;
+        display: flex;
+        transition: 0.2s;
+
+        &:hover {
+                transition: 0.3s;
+                box-shadow: 0 0 4px 2px #65ff87;
+        }
+
+        .check-base {
+                width: 20px;
+                height: 20px;
+                margin: auto;
+                fill: #2f2f2f;
+        }
+
+        .check-disabled {
+            fill: #ffffff4d;
+        }
+}
+
+.checkbox-pressed {
+        transition: 0.2s;
+        box-shadow: 0 0 6px 4px #65ff87 !important;
+}
+
+.checkbox-check {
+        transition: 0.2s;
+        background: #65ff87 !important;
+}

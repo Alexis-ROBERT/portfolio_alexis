@@ -1,0 +1,54 @@
+.text-field-line-base {
+        width: 200px;
+
+        input[type='text'] {
+                font-size: 15px;
+                color: #fff;
+                font-family: 'Inter Bold';
+                background: transparent;
+                width: 100%;
+                margin: 5px 0;
+
+                &::placeholder {
+                        color: #fff;
+                }
+        }
+
+        .line-text-field {
+                position: relative;
+                margin: 5px 0;
+                height: 4px;
+                width: 100%;
+                background: #0078bb;
+                display: flex;
+                transition: 0.3s;
+        }
+
+        .focus-text-field-line-base {
+                position: absolute;
+                width: 0%;
+                margin: auto;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                background: #65ff87;
+                transition: 0.2s;
+        }
+
+        .focus-line {
+                transition: 0.3s;
+                width: 100%;
+                box-shadow: 0 0 4px 2px #65ff87;
+        }
+
+        .focus-line > .line-text-field {
+                transition: 0.3s;
+                box-shadow: none;
+        }
+
+        &:hover > .line-text-field {
+                transition: 0.2s;
+                box-shadow: 0 0 4px 2px #65ff87;
+        }
+}

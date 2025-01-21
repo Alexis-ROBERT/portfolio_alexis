@@ -1,0 +1,21 @@
+.button-base {
+        background: transparent;
+        color: #fff;
+        border-radius: 10px;
+        border: 4px solid #0078BB;
+        padding: 10px 5px;
+        font-size: 20px;
+        font-weight: 800;
+        transition: 0.2s;
+
+        &:hover {
+                transition: 0.3s;
+                cursor: pointer;
+                box-shadow: 0 0 20px 6px #65FF87;
+        }
+}
+
+.pressed {
+    transition: 0.2s;
+    box-shadow: 0 0 20px 4px #65ff86a2 !important;
+}

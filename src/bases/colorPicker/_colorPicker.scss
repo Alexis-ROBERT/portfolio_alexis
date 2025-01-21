@@ -1,0 +1,25 @@
+.color-picker-base-container {
+        position: relative;
+        
+        .color-picker-base {
+                width: 20px;
+                height: 20px;
+                border: 2px solid #0078BB;
+                border-radius: 2.5px;
+                transition: 0.2s;
+        
+                &:hover {
+                        transition: 0.3s ease-in-out;
+                        box-shadow: 0 0 5px 2px #65FF87;
+                }
+        }
+
+        .pressed {
+                transition: 0.2s;
+                box-shadow: 0 0 3px 2px #65ff86a2 !important;
+        }
+        
+        .color-choose-panel {
+                position: absolute;
+        }
+}

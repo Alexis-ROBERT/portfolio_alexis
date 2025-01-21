@@ -1,0 +1,105 @@
+.select-option-container {
+        width: max-content;
+        height: max-content;
+
+        .list-option-container {
+                position: relative;
+                margin: 5px 0;
+                width: 100%;
+        }
+
+        .line-btn-option {
+                width: 100%;
+                height: 1px;
+                background: #0078bb;
+                margin: 2px 0;
+        }
+
+        .list-option-base {
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                padding: 4px;
+                border-radius: 4px;
+                background: rgba(74, 74, 74, 0.5);
+                border: 2px solid #0078bb;
+                box-shadow: 0 5px 6px 4px rgba(101, 255, 135, 0.25);
+                margin: 10px 0;
+                backdrop-filter: blur(6px);
+
+                .option-btn-base {
+                        background: transparent;
+                        color: #fff;
+                        width: 100%;
+                        border: 1px solid transparent;
+                        text-align: left;
+                        border-radius: 4px;
+                        padding: 5px;
+                        transition: 0.2s;
+
+                        &:hover {
+                                transition: 0.2s;
+                                background: #4a4a4a;
+                                border: 1px solid rgba(101, 255, 135, 0.5);
+                        }
+                }
+
+                .actived-option {
+                        color: rgba(101, 255, 135, 1) !important;
+                }
+        }
+
+        .select-option-base {
+                padding: 2px 5px;
+                border: 2px solid #0078bb;
+                border-radius: 4px;
+                font-family: 'Inter';
+                color: #fff;
+                background: #4a4a4a;
+                display: flex;
+                transition: 0.2s;
+
+                span {
+                        &:first-child {
+                                margin: auto 10px auto 0;
+                        }
+
+                        &:last-child {
+                                margin: auto 0 auto 10px;
+                        }
+
+                        .select-option-input-base {
+                                cursor: default;
+                                background: transparent;
+                                border: 0;
+                                outline: 0;
+                                width: 100px;
+                                text-align: right;
+
+                                &::placeholder {
+                                        text-align: right;
+                                }
+                        }
+                }
+
+                &:hover {
+                        transition: 0.3s;
+                        background: rgba(74, 74, 74, 0.75);
+                        box-shadow: 0 0 6px 4px rgba(101, 255, 135, 1);
+                }
+        }
+
+        .pressed-select-option {
+                transition: 0.2s;
+                background: rgba(74, 74, 74, 0.5);
+                box-shadow: 0 0 4px 2px rgba(101, 255, 135, 0.75) !important;
+        }
+
+        .arrow-vector-opt-base {
+                transition: 0.2s;
+                width: 20px;
+                height: 20px;
+        }
+}

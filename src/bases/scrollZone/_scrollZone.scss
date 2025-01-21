@@ -1,0 +1,9 @@
+.scroll-zone-base {
+        width: 100%;
+        overflow-x: hidden;
+        padding: 5px 1px;
+
+        &:hover {
+                overflow-x: auto;
+        }
+}
